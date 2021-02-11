@@ -3,9 +3,8 @@ Type: Package
 Title: ATC simple utilities functions
 Version: 0.1.0
 Author: Alix Tiran-Cappello
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: <alix.tiran.cappello@ens-lyon.org>
+Description: "Utility functions to make life easier""
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

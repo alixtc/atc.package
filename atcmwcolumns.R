@@ -1,5 +1,4 @@
 #' Perform multiple MannWhitney on multiplescolumns => use Pivot_longer or nest and map
-#'
 atcmwcolumns <- function(df,columns,factor){
 df %>%
   select(c(columns, factor)) %>%

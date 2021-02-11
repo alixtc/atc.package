@@ -1,5 +1,5 @@
 #' Power Analysis through resampling and Monte Carlo style simulation for Mann-Whitney tests
-
+#' @description Calculate power as the percentage of tests yielding the same results through bootstrap
 #' @param control_data A vector of the control data to be resampled
 #' @param experiment_data A vector of the experiment data to be resampled
 #' @param reps The number of iteration for the bootstrap, default = 1000

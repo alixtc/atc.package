@@ -14,5 +14,5 @@ atc_mw_power(control_data, experiment_data, reps = 1000)
 \item{reps}{The number of iteration for the bootstrap, default = 1000}
 }
 \description{
-Power Analysis through resampling and Monte Carlo style simulation for Mann-Whitney tests
+Calculate power as the percentage of tests yielding the same results through bootstrap
 }

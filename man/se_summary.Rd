@@ -2,10 +2,16 @@
 % Please edit documentation in R/se_summary.R
 \name{se_summary}
 \alias{se_summary}
-\title{Dplyr-friendly function to calculate Mean, SD, and SEM through summarize}
+\title{Pipe-friendly function to calculate Mean, SD, and SEM through summarize}
 \usage{
 se_summary(.data, .var)
 }
+\arguments{
+\item{.data}{A dataframe}
+
+\item{.var}{A column name to analyse}
+}
 \description{
-Dplyr-friendly function to calculate Mean, SD, and SEM through summarize
+This function is particularly helpful to draw plots with SEM as the error indicator.
+Works extremely well with ggplot() + geom_errorbar()
 }

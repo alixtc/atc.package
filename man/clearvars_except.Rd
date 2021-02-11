@@ -2,10 +2,10 @@
 % Please edit documentation in R/clearvars_except.R
 \name{clearvars_except}
 \alias{clearvars_except}
-\title{Analog of Matlab function to clear all variables from the global environment}
+\title{Analog of Matlab function to keep only specifyied variables in the global environment}
 \usage{
 clearvars_except(...)
 }
 \description{
-Analog of Matlab function to clear all variables from the global environment
+Analog of Matlab function to keep only specifyied variables in the global environment
 }

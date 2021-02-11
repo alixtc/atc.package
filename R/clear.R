@@ -1,4 +1,4 @@
-#' Analog of Matlab function to clear all variables from the global environement
+#' Analog of Matlab function to clear all variables from the global environment
 #' @export clear
 
 clear <- function() {

@@ -1,5 +1,9 @@
-#' Dplyr-friendly function to calculate Mean, SD, and SEM through summarize
-#'@export
+#' Pipe-friendly function to calculate Mean, SD, and SEM through summarize
+#' @description This function is particularly helpful to draw plots with SEM as the error indicator.
+#' Works extremely well with ggplot() + geom_errorbar()
+#' @param .data A dataframe
+#' @param .var A column name to analyse
+#' @export
 se_summary <- function(.data, .var){
 
 

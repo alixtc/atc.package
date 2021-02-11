@@ -2,10 +2,10 @@
 % Please edit documentation in R/clear.R
 \name{clear}
 \alias{clear}
-\title{Analog of Matlab function to clear all variables from the global environement}
+\title{Analog of Matlab function to clear all variables from the global environment}
 \usage{
 clear()
 }
 \description{
-Analog of Matlab function to clear all variables from the global environement
+Analog of Matlab function to clear all variables from the global environment
 }

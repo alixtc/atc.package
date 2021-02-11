@@ -4,6 +4,7 @@
 #' @param .data A dataframe
 #' @param .var A column name to analyse
 #' @export
+
 se_summary <- function(.data, .var){
 
 

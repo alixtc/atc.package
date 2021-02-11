@@ -1,6 +1,7 @@
 #' Analog of Matlab function to keep only specifyied variables in the global environment
 #' @export clearvars_except
 
+
 clearvars_except <- function(...){
   # Get variables as typed in the function call
   variables <- as.list(sys.call())

@@ -6,8 +6,3 @@ clear <- function() {
   rm(list = ls(genv), envir = genv)
 }
 
-# clear <- function() {
-#   e <- environment()
-#   pf <- parent.env(e)
-#   rm(list = ls(pf), envir = pf)
-# }

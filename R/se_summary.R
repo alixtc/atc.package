@@ -5,19 +5,19 @@
 #' @param .var A column name to analyse
 #' @export
 
-se_summary <- function(.data, .var){
+se_summary <- function(.data, .var, ...){
 
 
   ##  Definition of SEM function
-  sem <- function(x){
-    sd(x)/sqrt(n())
+  sem <- function(x, ...){
+    sd(x, ...)/sqrt(n())
   }
 
   ## Calculation of intended values + naming using glue operator
   results <- .data %>%
-    summarise("{{.var}}.mean" := mean({{.var}}),
-              "{{.var}}.sd" := sd({{.var}}),
-              "{{.var}}.sem" := sem({{.var}}),
+    summarise("{{.var}}.mean" := mean({{.var}}, ...),
+              "{{.var}}.sd" := sd({{.var}}, ...),
+              "{{.var}}.sem" := sem({{.var}}, ...),
               n = n(),
               # "mean.{{.var}}-SEM" := mean({{.var}}) + sem({{.var}}),
               # "mean.{{.var}}-SEM" := mean({{.var}}) - sem({{.var}}),

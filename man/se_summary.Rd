@@ -4,7 +4,7 @@
 \alias{se_summary}
 \title{Pipe-friendly function to calculate Mean, SD, and SEM through summarize}
 \usage{
-se_summary(.data, .var)
+se_summary(.data, .var, ...)
 }
 \arguments{
 \item{.data}{A dataframe}

@@ -4,14 +4,14 @@
 #' @param .data A dataframe
 #' @param .var A column name to analyse
 #' @export
+library(tidyverse)
+
+##  Definition of SEM function
+sem <- function(x, ...){
+  sd(x, ...)/sqrt(n())
+}
 
 se_summary <- function(.data, .var, ...){
-
-
-  ##  Definition of SEM function
-  sem <- function(x, ...){
-    sd(x, ...)/sqrt(n())
-  }
 
   ## Calculation of intended values + naming using glue operator
   results <- .data %>%
